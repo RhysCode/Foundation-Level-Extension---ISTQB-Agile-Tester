@@ -1,0 +1,56 @@
+The Agile Manifesto
+
+
+Individuals and Interactions, over Processes and Tools
+
+Teams of people build software, and it is through continuous communication and 
+interaction, rather than a reliance on tools or processes, that teams can work most effectively.
+
+Working Software, over Comprehensive Documentation
+
+Because working software, albeit with reduced functionality, is available much earlier in the 
+development lifecycle, Agile development can confer significant time-to-market advantage. 
+Agile development is, therefore, especially useful in rapidly changing business environments 
+where the problems and/or solutions are unclear or where the business wishes to innovate in new 
+problem domains.
+
+Customer Collaboration, over Contract Negotiation
+
+While having contracts with customers may be important, working in regular and close 
+collaboration with them is likely to bring more success to the project.
+
+Responding to Change, over Following a Plan
+
+Change is inevitable in software projects. The environment in which the business operates,
+legislation, competitor activity, technology advances, and other factors can have major
+influences on the project and its objectives. These factors must be accommodated by the
+development process. As such, having flexibility in work practices to embrace change is
+more important than simply adhering rigidly to a plan.
+
+While there is value in the items on the right, we value the items on the left more.
+
+
+Agile Principles (1-6)
+
+1. Our highest priority, is to satisfy the customer through early, and continuous delivery of 
+valuable software.
+2. Welcome changing requirements, even late in development. Agile processes harness change for 
+the customer's competitive advantage.
+3. Deliver working software frequently, from a few weeks to a few months, with a preference to 
+the shorter timescale.
+4. Business people, and developers must work together daily throughout the project.
+5. Build projects around motivated individuals. Give them the environment and support they need, 
+and trust them to get the job done.
+6. The most efficient, and effective method of conveying information to, and within a development
+team is face-to-face conversation.
+
+Agile Principles (7-12)
+
+7. Working software is the primary measure of progress.
+8. Agile processes promote sustainable development. The sponsors, developers, and users should 
+be able to maintain a constant pace indefinitely.
+9. Continuous attention to technical excellence, and good design enhances agility.
+10. Simplicity -- the art of maximizing the amount of work not done -- is essential.
+11. The best architectures, requirements, and designs emerge from self-organizing teams.
+12. At regular intervals, the team reflects on how to become more effective, then tunes, and
+adjusts its behaviour accordingly.
