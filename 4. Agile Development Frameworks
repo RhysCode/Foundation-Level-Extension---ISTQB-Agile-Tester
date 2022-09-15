@@ -1,0 +1,63 @@
+Agile Frameworks
+
+- Scrum
+- XP
+- Kanban
+
+Common Attributes for Agile:
+- Collaborative User Story Creation
+- Retrospectives
+- Continuous Integration
+- Planning for the Overall Release, as well as each Iteration
+
+
+Scrum - Management Framework
+
+7 Instruments and Practices
+- Sprint
+- Product Increment
+- Product Backlog
+- Sprint Backlog
+- DoD
+- Timeboxing
+- Transparency
+
+3 Roles
+- Scrum Master
+- Product Owner
+- Development Team
+
+Scrum does not dictate specific software development techniques (e.g., test first programming). In addition, Scrum does not provide guidance on how testing has to be done in Scrum project.
+
+The Development Team develop, and test the product. The team is self-organized: There is no team lead, so the team makes the decisions. The team is also cross-funtional.
+
+
+XP Intro
+
+- Programmer Centric
+- 1-4 week iterations
+  -- most important stories first
+  -- 30-120 day releases
+- Small, self-directed teams
+
+Extreme Programming (XP), is an Agile approach to software development described by certain values, principles, and development practices.
+
+
+Kanban
+
+A management approach which visualizes, and optimizes the flow of work within a value-added chain, i.e. a scheduling system
+- Three Instruments
+  -- Kanban Board - tasks are 'pulled' by those who will do them
+  -- work-in-progress limit
+  -- lead time
+    --- tasks are only added as previous tasks are completed
+       
+Kanban features some similarities to Scrum. In both frameworks, visualizing the active tasks
+(e.g., on a public whiteboard) provides transparency of content and progress of tasks. Tasks
+not yet scheduled are waiting in a backlog and moved onto the Kanban board as soon as
+there is new space (production capacity) available.
+
+Iterations or sprints are optional in Kanban. The Kanban process allows releasing its
+deliverables item by item, rather than as part of a release. Timeboxing as a synchronizing
+mechanism, therefore, is optional, unlike in Scrum, which synchronizes all tasks within a
+sprint.
