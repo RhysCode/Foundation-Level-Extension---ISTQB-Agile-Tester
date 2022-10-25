@@ -1,0 +1,15 @@
+Product Owner: represents the customer, and generates, maintains, and prioritizes the product backlog. This person is not the team lead.
+
+Scrum Master: ensures that Scrum practices and rules are implemented and followed, and resolves any violations, resource issues, or other impediments that could prevent the team from following the practices, and rules. This person is not the team lead, but a coach.
+
+Project work products of immediate interest to Agile Testers typically fall into three categories:
+1. Business-oriented work products that describe what is needed (e.g., requirement specifications), and how to use it (e.g., user documentation).
+2. Development work products that describe how the system is built (e.g., database entity relationship diagrams), that actually implement the system (e.g., code), or that evaluate individual pieces of code (e.g., automated unit tests).
+3. Test work productsthat describe how the system is tested (e.g., test strategies, and plans), that actually test the system (e.g., manual, and automated tests), or that present test results (e.g., test dashboards).
+
+Encouragement to reduce documentation applies only to documentation that does not deliver value to the customer. In a successful Agile project, a balance is struck between increasing efficiency by reducing documentation, and providing sufficient documentation to support business, testing, development, and maintenance activities. 
+
+Typical developer work products on Agile projects include code. Agile developers also often create automated unit tests.
+
+Typical tester work products on Agile projects include automated tests, as well as documents such as test plans, quality risk catalogs, manual tests, defect reports, and test results logs. The documents are captured in as lightweight a fashion as possible, which is often also true of these documents in traditional lifecycles. Testers will also produce test metrics from defect reports, and test results logs, and again there is an emphasis on a lightweight approach.
+
