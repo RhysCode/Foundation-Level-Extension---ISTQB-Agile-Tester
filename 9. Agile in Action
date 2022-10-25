@@ -1,0 +1,13 @@
+An Agile Process
+
+Write Stories -> Develop Stories -> Test Stories -> Acceptance Test -> Regression Test
+
+Testers, developers, and business stakeholders all have a role in testing, as with traditional lifecycles.
+
+Developers, perform unit tests as they develop features from the user stories (either after code or using TDD - incrementally before each portion of code). Developers focus on creating automated unit tests.
+Testers, then test those features. Testers focus on creating automated integration, system, and system integration tests (thus Agile favors testers with a strong technical, and test automation background).
+Business Stakeholders, also test the stories during implementation. Busienss stakeholders might use written test cases, but they also might simply experiment with, and use the feature in order to provide fast feedback to the development team.
+
+In addition, there is often a parallel process of regression testing occuring throughout the iteration. This involes re-running the automated unit tests, and feature verification tests from the current iteration, and previous iterations, usually via a continuous integration framework.
+
+Changes to existing features have testing implications, especially regression testing implications. The use of automated testing is one way of managing the amount of test effort associated with change. However, it's important that the rate of change does not exceed the project team's ability to deal with the risks associated with those changes.
