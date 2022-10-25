@@ -1,0 +1,19 @@
+There are certain testing practices that can be followed in every development project (agile or not) to produce quality products. These include writing tests in advance to express proper behaviour, focusing on early defect prevention, detection, and removal, and ensuring that the right test types are run at the right time, and as part of the right test level. Agile practitioners aim to introduce these practices early.
+
+Test-driven development, acceptance test-driven development, and behavior-driven development are three complementary techniques in use among Agile teams, to carry out testing across the various test levels.
+
+TDD
+The tests written are primarily unit level, and are code-focused, though tests may also be written at the integration or system levels. Test-driven development gained its popularity through Extreme Programming, but is also used in other Agile methodologies, and sometimes in sequential lifecycles.
+
+Used to develop code guided by automated test cases.
+-> Add a test that captures the programmer's concept of the desired functioning of a small piece of code.
+-> Run the test, which should fail, since the code doesn't exist.
+-> Write the code, and run the test in a tight loop until the test passes.
+-> Refactor the code after the test is passed, re-running the test to ensure it continues to pass against the refactored code.
+-> Repeat this process for the next small piece of code, running the previous tests as well as the added tests.
+
+BDD
+Behavior-driven development allows a developer to focus on testing the code based on the expected behavior of the software. Because the tests are based on the exhibited behavior of the software, the tests are generally easier for other team members, and stakeholders to understand.
+
+ATDD
+Acceptance test-driven development defines acceptance criteria, and tests during the creation of user stories. Acceptance test-driven development is a collaborative approach that allows every stakeholder to undertand how the software component has to behave, and what the developers, testers, and business representatives need to ensure this behavior. As a test-first approach, the test cases are created by the Agile team, including the developer, the tester, and the business representatives, and may be manual, or automated.
