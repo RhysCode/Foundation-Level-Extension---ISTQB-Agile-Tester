@@ -1,0 +1,42 @@
+User Stories - 3Cs
+
+Card
+As a [user_type], I want [some goal], so that [some reason]. 
+The card identifies the requirement, its criticality, expected development, and test duration, and the acceptance criteria for that story. The description must be accurate, as it will be used in the product backlog.
+
+Conversation
+-> Documented or verbal, between Testers, Developers & Business Representatives.
+-> Testers bring valuable input to the exchange of thoughts, opinions, and experiences.
+-> Begins during release planning, and continues when the story is scheduled.
+
+Confirmation
+-> Acceptance criteria confirm that the story is done.
+  - Include performance, security, interoperability, etc.
+-> Acceptance criteria may span multiple user stories.
+-> Both positive, and negative tests should be used.
+-> Performed by various participants.
+
+A user story should define a feature small enough to be completed in a single iteration. Larger collections of related features, or a collection of sub-features that make up a single complex feature, may be referred to as "epics". Epics may include user stories for different development teams. For example, one user story can describe what is required at API-level (middleware) while another story describes what is needed at the UI-level (application). These collections may be developed over a series of sprints.  
+
+The user stories must address both functional, and non-functional characteristics. 
+
+Poor specifications are often a major reason for project failure. Specification problems can result from the users' lack of insight into their true needs, absence of a global vision for the system, redundant or contradictory features, and other miscommunications. 
+
+INVEST - User Story Checklist
+
+I = Independent (of all others)
+N = Negotiatble (not a specific contract for features)
+V = Valuable
+E = Estimatable (to a good approximation)
+S = Small (so as to fit within an iteration)
+T = Testable (in principle, even if there isn't a test for it yet)
+
+Acceptance Criteria
+
+For acceptance criteria to be testable, they should address one or more of the following:
+-> Functional Behaviour
+  - Observable behaviour with user actions as input operating under certain configurations.
+-> Quality Characteristics / Non-Functional Behaviour
+  - Also referred to as quality attributes or non-functional requirements. Common quality characteristics are performance, reliability, usability, etc.
+-> Data Definitions
+  - The customer may describe the format, data type, allowed values, and default values for a data item in the composition of a complex business data structure (e.g. the ZIP code in a U.S. mail address).
