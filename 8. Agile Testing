@@ -1,0 +1,70 @@
+Continuous Integration
+
+Delivery of a product increment requires reliable, working, integrated software at the end of every sprint. Continuous integration addresses this challenge by merging all changes made to the software and integrating all changed components, regularly, at least once a day. Since developers integrate their work constantly, build constantly, and test constantly, defects in code are detected more quickly.
+
+Automated tests can be run continuously against the system. An initial subset of automated tests to cover critical system functionality, and integration points should be created immediately after a new build is deployed into the test environment. These tests are commonly known as build verification tests. Results from the build verification tests will provide instant feedback on the software after deployment, so teams don't waste time testing an unstable build.
+
+One goal of the automated tests is to confirm that the build is functioning and installable. If any automated test fails, the team should fix the underlying defect in time for the next code check-in. This requires an investment in real-time test reporting to provide good visibility into test results. This approach helps reduce expensive, and inefficient cycles of "build-install-fail-rebuild-reinstall" that can occur in many traditional projects, since changes that break the build or cause software to fail to install are detected quickly.
+
+Automated testing and build tools help to manage the regression risk associated with the frequent change that often occurs in Agile projects. However, over-reliance on automated unit testing alone to manage these risks can be a problem, as unit testing often has limited defect detection effectiveness. Automated tests at the integration, and system levels are also required.
+
+Following the developers coding, debugging, and check-in of code into a shared source code repository, a continuous integration process consists of the following automated activities.
+-> Static Code Analysis: executing static code analysis and reporting results.
+-> Compile: compiling and linking the code, generating the executable files.
+-> Unit Test: executing the unit tests, checking code coverage, and reporting test results.
+-> Deploy: installing the build into a test environment.
+-> Integration Test: executing the integration tests, and reporting results.
+-> Report (dashboard): posting the status of all these activites to a publicly visible location or e-mailing status to the team.
+
+Test Design
+
+Testers will often discover the need for additional information (e.g., code coverage) throughout the iterations, and should work collaboratively with the rest of the Agile team members to obtain that information. Relevant information plays a part in determining whether a particular activity can be considered done. This concept of the definition of done is critical in Agile projects, and applies in a number of different ways as discussed later.
+
+In Agile testing, many tests are created by testers concurrently with the developers' programming activites. Just as the developers are programming based on the user stories, and acceptance criteria, so are the testers creating tests based on user stories, and their acceptance criteria. 
+
+Exploratory Testing
+
+In explaoratory testing, test design, and test execution occur at the same time, guided by a prepared test charter. A test charter provides the test conditions to cover during a time-boxed session. During exploratory testing, the results of the most recent tests guide the next test. The same white box and black box techniques can be used to design the tests as when performing pre-designed testing.
+
+In order to achieve the best results, exploratory testing should be combined with other experience-based techniques as part of a reative testing strategy, blended with other testing strategies.
+
+Test automation at all levels of testing occurs in many Agile teams, and this can mean that testers spend time creating, executing, monitoring, and maintaining automated tests and results. Because of the heavy use of test automation, a higher percentage of the manual testing on Agile projects tends to be done using experience-based and defect-based techniques such as software attacks, exploratory testing, and error guessing.
+
+Test Charter
+
+A test charter may include the following information:
+
+- Actor: intended user of the system.
+- Purpose: the theme of the charter including what particular objective the actor wants to achieve, i.e. the test conditions.
+- Setup: what needs to be in place in order to start the test execution.
+- Priority: relative importance of this charter, based on the priority of the associated user story or the risk level.
+- Reference: specifications (e.g,, user story), risks, or other information sources.
+- Data: whatever data is needed to carry out the charter.
+- Activites: a list of ideas of what the actor may want to do with the system (e.g., "log on to the system as a super user") and what would be interesting to test (both positive,, and negative tests).
+- Oracle Notes: how to evaluate the product to determine correct results (e.g., to capture what happens on the screen, and compare to what is written in the user's manual).
+- Variations: alternative actions, and evaluations to complement the ideas described under activities.
+
+Test Log
+
+It is imporant for the tester to document the process as much as possible.
+
+- Test Coverage: what input data has been used, how much has been covered, and how much remains to be tested.
+- Evaluation notes: observations during testing, do the system, and feature under test seem to be stable, were any defects found, what is planned as the next step according to the current observations, and any other list of ideas.
+- Risk/strategy list: which risks have been covered, and which ones remain among the most important ones, will the initial strategy be followed, does it need any changes, issues, questions, and anomalies.
+- Actual behaviour: recording of actual behaviour of the system that needs to be saved (e.g., video, screen captures, output data files).
+
+The information logged should be captured, and/or summarized into some form of status management tools (e.g., test management tools, task management tools, the task board, in a way that akes it easy for stakeholders to understand the current status for all testing that was performed.
+
+Regression Testing
+
+In an Agile project, as each iteration completes, the product grows. Therefore, the scope of testing also increases. Along with testing, the code changes made in the current iteration, testers also need to verify no regression has been introduced on features that were developed and tested in previous iterations. The risk of introducing regression in Agile development is high due to extensive code curn (lines of code added, modified, or deleted from one version to another). Since responding to change is a key Agile principle, changes can also be made to previously delivered features to meet business needs.
+
+Because complete repetition of all tests is seldom possible, especially in tight-timeline Agile projects, testers need to allocate time in each iteration to review manual, and automated test cases from previous, and current iterations to select test caes that may be candidates for the regression test suite, and to retire test cases that are no longer relevant. Tests written in earlier iterations to verify specific features may have little value in later iterations due to feature changes or new features which alter the way thoes earlier features behave.
+
+While reviewing test cases, testers should consider suitability for automation. The team needs to automate as many tests as possible from previous, and current iterations. This allows automated regression tests to reduce regression risk with less effort than manual regression testing would require. This reduced regression test effort frees the testers to more thoroughly test new features, and functions in the current iteration.
+
+In order to maintain velocity without incurring a large amount of technical debt, it is critical that teams invest in test automation at all test levels as early as possible. It is also critical that all test assets such as automated tests, manual test cases, test data, and other testing artifacts are kept up-to-date with each iteration. It is highly recommended that all test assets be maintained in a configuration management tool in order to enable version control, to ensure ease of access by all team members, and to support making changes as required due to changing functionality while still preserving the historic information of the test assets.
+
+Use of test automation, at all test levels, allows Agile teams to provide rapid feedback on product quality. Well-written automated tests provide a living document of system functionality. By checking the automated tests, and their corresponding test results into the configuration management system, aligned with the versioning of the product builds, Agile teams can review the functionality tested, and the rest results for any given build at any given point in time.
+
+Automated unit tests are run before source code is checked into the mainline of the configuration management system to ensure the code changes do not break the software build. To reduce build breaks, which can slow down the progress of the whole team, code should not be checked in unless all automated unit tests pass. Automated unit test results provide immediate feedback on code, and build quality, but no on overall product quality.
