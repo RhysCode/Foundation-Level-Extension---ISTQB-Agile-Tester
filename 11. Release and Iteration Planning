@@ -1,0 +1,21 @@
+Planning is an on-going activity. For Agile lifecycles, two kinds of planning occur, release planning, and iteration planning.
+
+Release Planning
+
+Release planning looks ahead to the release of a product. It defines, and redefines the product backlog, and may involve refining larger user stories into a collection of smaller stories. Release planning provides the basis for a test approach, and test plan spanning all iterations.
+
+In release planning, business representatives establish, and prioritize the user stories for the release, in collaboration with the team.
+
+Testers are involved in release planning, and especially add value in the following activities:
+-> Defining testable user stories, including acceptance criteria.
+-> Estimating testing effort associated with the user stories.
+-> Planning the testing for the release.
+
+Iteration Planning
+
+After release planning is done, iteration planning for the first iteration starts. Iteration planning looks ahead to the end of a single iteration, and is concerned with the iteration backlog, and culminates in estimated tasks on a task board. These tasks can be prioritized in part based on the level of quality risk associated with them. Tasks associated with higher risks should start earlier, and involve more testing effort. Tasks associated with lower risks should start later, and involve less testing effort.
+
+In iteration planning, the team selects user stories from the prioritized release backlog, elaborates the user stories, performs a risk analysis for the user stories, and estimates the work needed for each user story. If a user story is too vague, and attempts to clarify it have failed, the team can refuse to accept it and use the next user story based on priority.
+
+The number of stories selected is based on established team velocity, and the estimated size of the selected user stories. After the contents of the iteration are finalized, the user stories are broken into tasks, which will ne carried out by the appropriate team members.
+
