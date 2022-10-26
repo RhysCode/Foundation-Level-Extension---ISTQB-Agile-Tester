@@ -1,0 +1,11 @@
+Testing Pyramid
+
+The test pyramid emphasizes having a large number of tests at the lower levels (bottom of the pyramid) and, as development moves to the upper levels, the number of tests decreases (top of the pyramid).
+
+Usually unit, and integration level tests are automated, and are created using API-based tools. At the system and acceptance levels, the automated tests are created using GUI-based tools. The test pyramid concept is based on the testing principle of early QA, and testing.
+
+Testing Quadrants
+
+Testing quadrants align the test levels with the appropriate test types in the Agile methodology. The testing quadrants model, and its variants, helps to ensure that all important test types, and test levels are included in the development lifecycle. This model also provides a way to differentiate, and describe the types of tests to all stakeholders, including developers, testers, and business representatives.
+
+In the testing quadrant, tests can be business (user) or technology (developer) facing. Some tests support the work done by the Agile team and confirm software behaviour. Other tests can verify the product. Tests can be fully manual, fully automated, a combination of manual and automated, or manual but supported by tools.
