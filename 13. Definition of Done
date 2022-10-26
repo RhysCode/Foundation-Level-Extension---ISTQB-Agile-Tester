@@ -1,0 +1,9 @@
+The definition of done for a release, which may span multiple iterations, may include the following areas.
+
+Coverage: All relevant test basis elements for all contents of the release have been covered by testing. The adequacy of coverage is determined by what is new or changed, its complexity and size, and the associated risks of failure.
+
+Quality: The defect intensity (e.g., how many defects are found per day or per transaction), the defect density (e.g., the number of defects found compared to the number of user stories, effort, and/or quality attributes), estimated number of remaining defects are within acceptable limits, the consequences of resolved and remaining defects (e.g., the severity and priority) are understood and acceptable, the residual level of risk associated with each identified quality risk is understood, and acceptable.
+
+Time: If the pre-determined delivery date has been reached, the business considerations associated with release, and not releasing, need to be considered.
+
+Cost: The estimated lifecycle cost should be used to calculate the return on investment for the delivered system (i.e., the calculated development, and maintenance cost should be considerably lower than the expected total sales of the product). The main part of the lifecycle cost often comes from the maintenance after the product has been released, due to the number of defects escaping to production.
