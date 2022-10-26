@@ -1,0 +1,11 @@
+A typical objective of testing in all projects, Agile or traditional, is to reduce the risk of product quality problems to an acceptable level prior to release. Testers in Agile projects can use the same types of techniques used in traditional projects to identify quality risks (or product risks), assess the associated level of risk, estimate the effort required to reduce those risks sufficiently, and then mitigate those risks through test design, impementation, and execution. However, given the short iterations, and rate of change in Agile projects, some adaptations of those techniques are required.
+
+Risk is the possibility of a negative or undesirable outcome or event. The level of risk is found by assessing the likelihood of occurence of the risk, and the impact of the risk. When the primary effect of the potential problem is on product quality, potential problems are referred to as quality risks or product risks.
+
+Risk Analysis
+
+One of the many challenges in testing is the proper selection, allocation, and prioritization of test conditions. This includes determining the appropriate amount of effort to allocate in order to cover each condition with tests, and sequencing the resulting tests in a way that optimizes the effectiveness, and efficiency of the testing work to be done.
+
+Risk identification, analysis, and risk mitigation strategies can be used by the testers in Agile teams to help determine an acceptable number of test cases to execute, although many interacting constraints and variables may require compromises.
+
+The tester then designs, implements, and executes tests to mitigate the risks. This includes the totality of features, behaviours, quality characteristics, and attributes that affect customer, user, and stakeholder satisfaction.
