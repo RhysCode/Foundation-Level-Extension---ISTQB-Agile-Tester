@@ -1,0 +1,15 @@
+Agile projects have short iterations, enabling the project team to receive early, and continuous feedback on product quality throughought the development lifecycle. One way to provide rapid feedback is by continuous integration.
+
+When sequential development approaches are used, the customer often does not see the product until the project is nearly completed. At that point, it is often too late for the development team to effectively address any issues the customer may have. By getting frequent customer feedback as the project progresses, Agile teams can incorporate most new changes to the product development process. Early and frequent feedback helps focus on the features with the highest business value, or associated risk, and these are delivered to the customer first.
+
+Stand-Ups
+
+-> What have you completed since the last meeting?
+-> What do you plan to complete by the next meeting?
+-> What is getting in your way?
+
+The whole team reviews the status of the task board regularly, often during the daily stand-up meetings, to ensure tasks are moving across the board at an acceptable rate. If any tasks are not moving or are moving too slowly, the team reviews, and addresses any issues that may be blocking the progress of those tasks.
+
+Defect Management
+
+In some cases, hardening or stablization iterations occur periodically to resolve any lingering defects, and other forms of technical debt. However, the best practice is that no feature is considered done until it has been integrated, and tested with the system.
