@@ -1,0 +1,2 @@
+Although the test management tools, requirements management tools, and incident management tools (defect tracking tools) can be used by Agile teams, some Agile teams opt for an all-inclusive tool (e.g., application lifecycle management or task management) that provides features relevant to Agile development, such as task boards, burndown charts, and user stories. Configuration management tools are impportant to testers in Agile teams due to the high number of automated tests at all levels, and the need to store, and manage the associated automated test artifacts.
+
